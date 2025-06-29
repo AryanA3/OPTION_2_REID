@@ -35,7 +35,12 @@ If you still prefer or need to run locally, follow these steps carefully:
 
    Place your `reid.py` script inside the `deep-person-reid` folder.
 
-4. **Run the script:**
+4. **Some requirements (already installed due to above if not then):**
+    ```bash
+    pip install opencv-python gdown
+    ```
+
+5. **Run the script:**
 
    ```bash
    python reid.py
